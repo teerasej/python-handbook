@@ -54,5 +54,6 @@
 
 - [Github](https://github.com/signup)
 - [Sentry](https://sentry.io/signup/)
+- [Docker Hub](https://hub.docker.com/signup)
 
 
