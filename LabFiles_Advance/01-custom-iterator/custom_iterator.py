@@ -8,13 +8,9 @@ class CustomRange:
     def __iter__(self):
         return self
 
+    # implement next method
     def __next__(self):
-        if self.current >= self.end:
-            raise StopIteration
-        else:
-            current = self.current
-            self.current += self.step
-            return current
+        return
 
 # Using the custom iterator
 print("\nUsing the custom iterator")
