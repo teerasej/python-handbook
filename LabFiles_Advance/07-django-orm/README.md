@@ -6,7 +6,8 @@
 1. Open `LabFiles_Advance/07-django-orm/project` in your editor.
 2. Right-click on the `project` folder and select `Open in Integrated Terminal` to open a terminal.
 3. run `pip install -r requirements.txt` to install the required packages.
-4. run `python manage.py runserver` to start the server.
+4. run `python manage.py migrate` to apply the migrations.
+5. run `python manage.py runserver` to start the server.
 
 ## 2. Create models for the blog application
 
