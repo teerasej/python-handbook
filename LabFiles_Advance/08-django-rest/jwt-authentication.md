@@ -3,6 +3,12 @@
 
 You have to finish the [REST API implementation](./rest-api.md) before you can start with this JWT authentication.
 
+1. Open `LabFiles_Advance/08-django-rest/project` in your editor.
+2. Right-click on the `project` folder and select `Open in Integrated Terminal` to open a terminal.
+3. run `pip install -r requirements.txt` to install the required packages.
+4. run `python manage.py migrate` to apply the migrations.
+5. run `python manage.py runserver` to start the server.
+
 ## 1. Install the required packages
 
 Right-click on the `project` folder and select `Open in Integrated Terminal` to open a terminal.

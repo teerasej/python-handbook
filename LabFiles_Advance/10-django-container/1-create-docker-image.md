@@ -3,6 +3,13 @@
 
 In this section, you will learn how to create a Docker image for the Django application.
 
+1. Open the `LabFiles_Advance/10-django-container/project` in your editor.
+2. Right-click on the `project` folder and select `Open in Integrated Terminal` to open a terminal.
+3. run `pip install -r requirements.txt` to install the required packages.
+4. run `python manage.py migrate` to apply the migrations.
+5. run `python manage.py runserver` to start the server.
+
+
 ## Step 1: Create a Dockerfile
 
 1. Open the directory `LabFiles_Advance/10-django-container/project` in Visual Studio Code.
